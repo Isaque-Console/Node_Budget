@@ -19,7 +19,8 @@ module.exports = {
         // acrescenta o token na resposta
         transactions["x-access-token"] = token
         
-        return res.json(transactions)
+        // return res.json(transactions)
+        return "Deployando aplicacao"
     },
 
     async showSingle(req, res) {
