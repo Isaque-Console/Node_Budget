@@ -20,7 +20,7 @@ module.exports = {
         transactions["x-access-token"] = token
         
         // return res.json(transactions)
-        return "Deployando aplicacao"
+        return res.end("Deployando aplicacao")
     },
 
     async showSingle(req, res) {
